@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.conteiner {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  height: 43px;
+  width: 100%;
+  background: -webkit-linear-gradient( rgb(241, 217, 80),rgb(250, 238, 167), rgb(241, 217, 80));  
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  float: left;
+  width: 30%;
+}
+
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 43px;
+  padding: 0px 25px;
+  color: white;
+  display: block;
+
+}
+
+.login {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.212);
+
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(jojo1.png);
+  background-size: cover;
+  color: black;
+  text-align: center;
+  height: 420px;
+  background-color:rgba(243, 229, 229, 0.767);
+  background-blend-mode:lighten;
+}
+
+.conteiner-h1 {
+  margin-top:  -80px;
+  padding-bottom: 100px;
+
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+.top-wrapper {
+  font-size: 20px;
+}
+
+.character-wrapper {
+  height: 500px;
+  text-align: center;
+}
+
+ .message-wrapper {
+  height: 250px;
+ }
+
+.signup {
+  background-color: rgb(241, 217, 80);
+}
+
+.facebook {
+  background-color: rgb(18, 77, 241);
+  margin-right: 20px;
+}
+
+.twitter {
+  background-color: rgb(55, 255, 255);
+}
+
+.btn {
+  padding: 3px 11px;
+  display: inline-block;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.character {
+  float: left;
+  width: 25%;
+}
+
+
+
+.heading h2 {
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+}
+
+.character-icon {
+  opacity: 0.7;
+  padding-top: 10p;
+}
+
+.character-icon:hover{
+  opacity: 1; 
+}
+
+.text-contents {
+  margin: 0px 5px;
+}
+
+ .register {
+   margin-top: 20px;
+   padding: 5px 20px;
+   background-color: rgb(207, 187, 69);
+   opacity: 0.7;
+   border-bottom: 3px solid black;
+   border-radius: 6px 6px 0px 0px ;
+   font-size: 17px;
+}
+
+.register:active {
+  border-bottom: none;
+  top: 3px;
+  position: relative;
+}
+footer {
+  background: -webkit-linear-gradient( rgb(241, 217, 80),rgb(250, 238, 167), rgb(241, 217, 80));  
+  height: 60px;
+}
+
